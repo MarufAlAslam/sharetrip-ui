@@ -10,9 +10,9 @@ const Homepage = () => {
             <div className="body bg-[#ebf0f5] py-4 h- w-full">
                 <div className="container">
                     <div className="grid grid-cols-5 justify-between items-start gap-6">
-                        <div className="sidebar col-span-1 flex h-full bg-white rounded-lg p-5"></div>
-                        <div className="col-span-4 py-1">
-                            <div className="flex justify-start items-center gap-2">
+                        <div className="sidebar col-span-5 md:col-span-1 flex h-full bg-white rounded-lg p-5"></div>
+                        <div className="col-span-5 md:col-span-4 py-1">
+                            <div className="flex flex-wrap justify-start items-center gap-2">
                                 <p className='text-[#5A6573] text-[13px]'>Home</p>
                                 <p className='text-[#5A6573] text-[13px]'>
                                     <FaChevronRight className='inline text-[10px]' />
@@ -38,7 +38,7 @@ const Homepage = () => {
                                                 <p className="font-semibold text-lg">
                                                     DAC → JFK
                                                 </p>
-                                                <p className='flex justify-start items-center gap-2 text-[#5A6573] text-[13px]'>
+                                                <p className='flex flex-wrap justify-start items-center gap-2 text-[#5A6573] text-[13px]'>
                                                     <span>Round Trip</span>
                                                     <span className='min-w-[5px] min-h-[5px] rounded-full bg-[#5A6573] d-block'></span>
                                                     <span>25 Mar - 4 Apr 2023</span>
@@ -49,7 +49,7 @@ const Homepage = () => {
                                             </div>
                                         </div>
 
-                                        <div className="time text-[#1882FF] text-xs bg-[#E8F3FF] px-[8px] py-[4px] rounded-full font-[500]">
+                                        <div className="time hidden md:block text-[#1882FF] text-xs bg-[#E8F3FF] px-[8px] py-[4px] rounded-full font-[500]">
                                             33h 20m
                                         </div>
                                     </div>
