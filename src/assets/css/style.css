@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@100..900&display=swap');
+
+* {
+    font-family: "Murecho", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+    width: 100%;
+}
+
+body{
+    background-color: #ebf0f4;
+}
